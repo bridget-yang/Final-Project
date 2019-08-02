@@ -9,6 +9,11 @@
   margin: 20px;
   font-family: 'Poppins', sans-serif;
 }
+.space {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}
 a:visited {
   text-decoration: none;
   color: black;
@@ -62,7 +67,7 @@ h5 {
 }
 .ada:hover {
     border-radius: 50%;
-  }
+}
 .katherine1 {
   display: flex;
   justify-content: center;

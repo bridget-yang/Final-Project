@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.subject {
+  font-size: 30px;
+}
 .tabs{
   display: flex;
   flex-direction: column;
