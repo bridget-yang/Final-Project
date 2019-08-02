@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tabs{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: grey;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: #fcf0ec;
+  margin: 15px;
+}
+h4 {
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.lovelace {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin: 15px
+}
+.ada {
+  object-fit: cover;
+  height: 400px;
+  width: 280px;
+  margin: 30px;
+  margin-top: 7px;
+}
+.theAda {
+  display: flex;
+  justify-content: center
+}
+.entire {
+  display: flex;
+  align-content: flex-start;
+  margin-bottom: 50px;
+}
+h5 {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 211px;
+}
+.johnson {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin: 15px;
+}
+.ada:hover {
+    border-radius: 50%;
+  }
+.katherine1 {
+  display: flex;
+  justify-content: center;
+}
+.katherine {
+    object-fit: cover;
+    height: 400px;
+    width: 280px;
+    margin: 30px;
+    margin-top: 7px;
+}
+.katherine:hover {
+    border-radius: 50%;
+  }
+.entire1 {
+  display: flex;
+  align-content: flex-start;
+}
+h6 {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 42px;
+}

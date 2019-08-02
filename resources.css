@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tabs{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: grey;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: #fcf0ec;
+  margin: 15px;
+}
+h1 {
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.summerLinks {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.summerp {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+.learningLinks {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+h3 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+}

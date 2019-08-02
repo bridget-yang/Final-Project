@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: grey;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+body {
+  background-color: #fcf0ec
+}
+img {
+  object-fit: cover;
+  height: 600px;
+  width: 400px;
+}
+.mission1 {
+  font-size: 20px;
+  margin: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+h2 {
+  font-size: 30px;
+  margin: 15px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 30px;
+}
+.home {
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+
+}
+.image1 {
+  margin-left: 23%;
+  margin-right: 25%;
+  margin-bottom: 100px;
+}
+
+.tabs{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.sentence{
+    color: #222;
+    font-size: 50px;
+    text-align: left;
+}
+/Wrapper/
+.wrapper{
+   background-color: #FCF0EC;
+   font-family: 'Poppins', sans-serif;
+   font-size: 50px;
+   margin: 100px auto;
+   padding: 40px 40px;
+   position: relative;
+   width: 70%;
+}
+/Horizontal Sliding/
+.slidingHorizontal{
+    display: inline;
+    text-indent: 8px;
+}
+.slidingHorizontal span{
+    animation: leftToRight 12.5s linear infinite 0s;
+    -ms-animation: leftToRight 12.5s linear infinite 0s;
+    -webkit-animation: leftToRight 12.5s linear infinite 0s;
+    color: #9DDFEA;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.slidingHorizontal span:nth-child(2){
+    animation-delay: 2.5s;
+    -ms-animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+}
+.slidingHorizontal span:nth-child(3){
+    animation-delay: 5s;
+    -ms-animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+}
+.slidingHorizontal span:nth-child(4){
+    animation-delay: 7.5s;
+    -ms-animation-delay: 7.5s;
+    -webkit-animation-delay: 7.5s;
+}
+.slidingHorizontal span:nth-child(5){
+    animation-delay: 10s;
+    -ms-animation-delay: 10s;
+    -webkit-animation-delay: 10s;
+}
+/leftToRight Animation/
+@-moz-keyframes leftToRight{
+    0% { opacity: 0; }
+    5% { opacity: 0; -moz-transform: translateX(-50px); }
+    10% { opacity: 1; -moz-transform: translateX(0px); }
+    25% { opacity: 1; -moz-transform: translateX(0px); }
+    30% { opacity: 0; -moz-transform: translateX(50px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-webkit-keyframes leftToRight{
+    0% { opacity: 0; }
+    5% { opacity: 0; -webkit-transform: translateX(-50px); }
+    10% { opacity: 1; -webkit-transform: translateX(0px); }
+    25% { opacity: 1; -webkit-transform: translateX(0px); }
+    30% { opacity: 0; -webkit-transform: translateX(50px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes leftToRight{
+    0% { opacity: 0; }
+    5% { opacity: 0; -ms-transform: translateX(-50px); }
+    10% { opacity: 1; -ms-transform: translateX(0px); }
+    25% { opacity: 1; -ms-transform: translateX(0px); }
+    30% { opacity: 0; -ms-transform: translateX(50px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+/Footer/
+h3{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.slidingHorizontal {
+  margin-left: 10px;
+}
